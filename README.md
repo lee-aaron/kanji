@@ -1,6 +1,6 @@
 ## こんにちは！
 
-Preface: I'm in no way associated with the original developer. I'm just updating this to suit my needs. Feel free to check out my version at [https://lee-aaron.github.io/kanji](lee-aaron.github.io/kanji) . This is a small javascript powered site that takes in `.json` data of kanji and outputs a selection box. By selecting these kanji you can make your own kanji worksheets tailored to your practicing needs.
+Preface: I'm in no way associated with the original developer. I'm just updating this to suit my needs. Feel free to check out my version at [lee-aaron.github.io/kanji](https://lee-aaron.github.io/kanji) . This is a small javascript powered site that takes in `.json` data of kanji and outputs a selection box. By selecting these kanji you can make your own kanji worksheets tailored to your practicing needs.
 
 ## Features
 Below are some screenshots of basic usage, along with a screenshot of the WaniKani.com API integration.
