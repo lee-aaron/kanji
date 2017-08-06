@@ -70,6 +70,21 @@ window.Kanji =  {
     $strokeToggle.toggleClass('selected');
     Kanji.$contentBox.toggleClass('stroke-order');
   },
+  
+  _handleLineToggle: function() {
+    var $lineToggle = $('.lineToggle');
+
+    $lineToggle.on('click', function() {
+      Kanji.toggleStroke();
+    });
+  },
+  
+  toggleLine: function() {
+    var $lineToggle = $('.lineToggle');
+
+    $lineToggle.toggleClass('selected');
+    Kanji.$contentBox.toggleClass('lines');
+  },
 
   _removeKanjiRow: function(existingKanji) {
     $('.kanji-row[data-character="'+ existingKanji +'"]').remove();
