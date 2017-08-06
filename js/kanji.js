@@ -176,6 +176,7 @@ window.Kanji =  {
       Kanji._handleSectionExpansion();
       Kanji._handleKanjiSearch();
       Kanji._handleStrokeToggle();
+      Kanji._handleLineToggle();
     });
   }
 };
