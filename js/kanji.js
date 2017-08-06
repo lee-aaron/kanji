@@ -75,7 +75,7 @@ window.Kanji =  {
     var $lineToggle = $('.lineToggle');
 
     $lineToggle.on('click', function() {
-      Kanji.toggleStroke();
+      Kanji.toggleLine();
     });
   },
   
