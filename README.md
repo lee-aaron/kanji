@@ -1,6 +1,8 @@
 ## こんにちは！
 
-Preface: I'm in no way associated with the original developer. I'm just updating this to suit my needs. Feel free to check out my version at [lee-aaron.github.io/kanji](https://lee-aaron.github.io/kanji) . This is a small javascript powered site that takes in `.json` data of kanji and outputs a selection box. By selecting these kanji you can make your own kanji worksheets tailored to your practicing needs.
+Preface: I'm in no way associated with the original developer. I'm just updating the kanji from [jisho.org](jisho.org) and adding other features. Feel free to check out my version at [lee-aaron.github.io/kanji](https://lee-aaron.github.io/kanji).
+
+This is a small javascript powered site that takes in `.json` data of kanji and outputs a selection box. By selecting these kanji you can make your own kanji worksheets tailored to your practicing needs.
 
 ## Features
 Below are some screenshots of basic usage, along with a screenshot of the WaniKani.com API integration.
@@ -12,6 +14,9 @@ The Kanji are divided into different categories. As of right now I have JLPT N1-
 ### Stroke Orders
 Two font files are loaded in so a user has the option to turn on and off stroke orders. 
 ![Screenshot](http://i.imgur.com/zEO6Q3I.png)
+
+### Lines
+Grid in the box to assist users with drawing kanji and it can be turned on and off.
 
 ### Search
 There is a search option which only takes a unicode kanji character. If that character is found in any of the categories on the app, it will autmatically add the kanji to the top of your worksheet.
