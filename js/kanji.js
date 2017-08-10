@@ -103,7 +103,7 @@ window.Kanji =  {
     $kanjiKunyomi.text(kanji.kunyomi);
     $kanjiRow.attr('data-character', kanji.character);
 
-    Kanji.$contentBox.prepend($kanjiRow);
+    Kanji.$contentBox.append($kanjiRow);
   },
 
   _setKanjiCategory: function(kanji) {
@@ -119,7 +119,7 @@ window.Kanji =  {
 
         $subCategory.attr('data-subcategory', kanji.subCategory);
         $subCategoryTitle.text(kanji.subCategory);
-        $categoryBox.prepend($subCategory);
+        $categoryBox.append($subCategory);
       };
 
       Kanji._setKanjiSelector(kanji, $subCategory);
