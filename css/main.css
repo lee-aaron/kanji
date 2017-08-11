@@ -146,13 +146,7 @@ body {
   font-size: 12px;
 }
 
-#content .kanji-box:nth-child(n+3) {
-    color: rgba(0, 0, 0, 0.15);
-}
 
-#content .kanji-box:nth-child(n+5) {
-    color: white;
-}
 
 .kanji-row {
   max-width: 980px;
@@ -246,28 +240,6 @@ body {
   #content {
     width: 980px;
     float: left;
-  }
-
-  #content.lines .kanji-box:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    margin: 0 auto;
-    top: 50%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-top: 1px dotted rgba(0, 0, 0, 0.15);
-  }
-
-  #content.lines .kanji-box:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    border-left: 1px dotted rgba(0, 0, 0, 0.15);
   }
 
   #kanjiSelectionBox {
