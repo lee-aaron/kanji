@@ -1,11 +1,18 @@
 <html>
   <head>
     <title>Kanji Sheets</title>
-    <link href="/kanji/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    
+    <system.webServer>
+        <staticContent>
+           <remove fileExtension=".ttf" />
+           <mimeMap fileExtension=".ttf" mimeType="application/font-ttf" />
+        </staticContent>
+    </system.webServer>
+  
   </head>
   <body>
     <div id="container">
